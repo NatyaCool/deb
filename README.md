@@ -70,14 +70,14 @@ https://dev.rutoken.ru/pages/viewpage.action?pageId=57148969
 
 ### **Четвертый этап настройка ЦС (RDP.pdf)** 
 
-### **Пятый этап OpenSSL** 
-* https://blog.eldernode.com/configure-openssl-on-windows-server/
-* https://applix.ru/articles/sozdanie-samopodpisannogo-ssl-sertifikata-na-windows-server/
-
-### **Шестой этап MySQL** 
+### **Пятый этап MySQL** 
 * https://lite.host/faq/hosting/komandnaya-stroka-mysql
 * https://jeka.by/post/1003/rabotaem-s-mysql-cherez-komandnuyu-stroku/
 * https://itreviewchannel.ru/rabota-s-mysql-cherez-komandnuyu-stroku/
+
+### **Шестой этап OpenSSL** 
+* https://blog.eldernode.com/configure-openssl-on-windows-server/
+* https://applix.ru/articles/sozdanie-samopodpisannogo-ssl-sertifikata-na-windows-server/
 
 ### **Седьмой этап WireGuard** 
 * https://introserv.com/ru/docs/wireguard-windows-setup/
