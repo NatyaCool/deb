@@ -82,3 +82,9 @@ nano /etc/sysctl.conf
 
 ### **Седьмой этап WireGuard** 
 * https://introserv.com/ru/docs/wireguard-windows-setup/
+
+
+
+
+
+### !!!Кто хочет тупа копировать, то надо найти `.run` в терменале написать `bash` и путь к файлу `.run`  !!!
