@@ -47,7 +47,7 @@ https://dev.rutoken.ru/pages/viewpage.action?pageId=57148969
 
 
 Перед началом выполнения отключили параметр Конфигурация усиленной безопасности Internet Explorer на вкладке Локальный сервер. Далее, в открывшемся окне отметили значения Отключить.
-![Screenshot](https://github.com/NatyaCool/demka/blob/main/1.png) ![Screenshot](https://github.com/NatyaCool/demka/blob/main/2.png)
+![Screenshot](https://github.com/NatyaCool/demka/blob/main/.png) ![Screenshot](https://github.com/NatyaCool/demka/blob/main/.png)
 
 Перешли в Диспетчер серверов -> Добавление ролей и компонентов. В мастере, в разделе Роли сервера нашли и отметили роль Службы сертификатов Active Directory, а также IIS веб-сервер.
 
