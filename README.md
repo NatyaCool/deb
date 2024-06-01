@@ -45,7 +45,6 @@ https://habr.com/ru/companies/testo_lang/articles/525326/
 
 https://dev.rutoken.ru/pages/viewpage.action?pageId=57148969
 
-file:///C:/Users/kazim/Downloads/a86afe276958645b.pdf
 
 Перед началом выполнения отключили параметр Конфигурация усиленной безопасности Internet Explorer на вкладке Локальный сервер. Далее, в открывшемся окне отметили значения Отключить.
 
