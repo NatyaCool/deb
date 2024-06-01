@@ -11,21 +11,23 @@ dugati
 
     iface enpos3 inet static
     
-    address 2.3.4.10
+    address <ip> //здесь надо ставить ip-адрес 
 
-    netmask 255.255.255.224
+    netmask <mask> //здесь надо ставить маску подсети
 
     auto enp0s8
 
     iface enpos8 inet static
     
-    address 8.9.10.20
-    
-    netmask 255.255.255.0 
+    address <ip> //здесь надо ставить ip-адрес 
 
-    up ip route add  via 8.9.10.
+    netmask <mask> //здесь надо ставить маску подсети
+
+    up ip route add <ip> via 8.9.10._
     
-    up ip route add  via 8.9.10.
+    up ip route add <mask> via 8.9.10._ 
+
+    ## Последний актет меняется 
 
 
     
