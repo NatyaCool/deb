@@ -7,7 +7,7 @@ dugati
     nano /etc/network/interfaces
 в файле nano /etc/network/interfaces надо написать(то что в <?> может отличатся):
 
-    allow-hotplug enp0s3
+    auto enp0s3
 
     iface enpos3 inet static
 
