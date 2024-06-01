@@ -10,14 +10,24 @@ dugati
     auto enp0s3
 
     iface enpos3 inet static
-
-    address <ip>
-
-    netmask <mas>
-
-    up ip route add 5.6.7.0/26 via 8.9.10.1
     
-    up ip route add 2.3.4.0/27 via 8.9.10.3
+    address 2.3.4.10
+
+    netmask 255.255.255.224
+
+    auto enp0s8
+
+    iface enpos8 inet static
+    
+    address 8.9.10.20
+    
+    netmask 255.255.255.0 
+
+    up ip route add  via 8.9.10.
+    
+    up ip route add  via 8.9.10.
+
+
     
 затем сохроняем ctrl+o, и выходим ctrl+x
 
