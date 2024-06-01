@@ -33,7 +33,11 @@ dugati
     
 затем сохроняем ctrl+o, и выходим ctrl+x
 
-Перезагрузка затем ниже
+    systemctl restart networking
+
+    systemctl status networking
+
+Затем перейти
 
     nano /etc/sysctl.conf (убрать # с net.ipv4.ip_forward=1)
 
