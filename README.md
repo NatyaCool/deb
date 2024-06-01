@@ -36,7 +36,8 @@ address 2.3.4.10
 netmask 255.255.255.224
 
 allow-hotplug enp0s8
-iface enpos8 inet staticaddress 8.9.10.20
+iface enpos8 inet static
+address 8.9.10.20
 netmask 255.255.255.0
 
 up ip route add 1.2.3.0/28 via 8.9.10.10
@@ -54,14 +55,6 @@ up ip route add 5.6.7.0/26 via 8.9.10.30
 ```
 nano /etc/sysctl.conf
 ```
-
-Затем прописывается маршрут (IP меняются как в задании):
-
-```commandline
-ip route add 5.6.7.0/26 via 8.9.10.30
-ip route add 2.3.4.0/27 via 8.9.10.20
-```
-
 
 перезагружаем сеть `systemctl restart networking`, проверяем айпишники с помощью `ip a`, если всё сохранилось, то можно приступать к настройки ip на сервере Windows, потом проверить пинг и после успешной проверки дальнейшей установке служб пункт 2.
 
@@ -82,5 +75,9 @@ https://dev.rutoken.ru/pages/viewpage.action?pageId=57148969
 ### **Пятый этап OpenSSL** 
 
 ### **Шестой этап MySQL** 
+* https://lite.host/faq/hosting/komandnaya-stroka-mysql
+* https://jeka.by/post/1003/rabotaem-s-mysql-cherez-komandnuyu-stroku/
+* https://itreviewchannel.ru/rabota-s-mysql-cherez-komandnuyu-stroku/
 
 ### **Седьмой этап WireGuard** 
+* https://introserv.com/ru/docs/wireguard-windows-setup/
