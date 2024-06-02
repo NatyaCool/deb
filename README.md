@@ -63,9 +63,9 @@ nano /etc/sysctl.conf
 * https://softcomputers.org/blog/nastroika-windows-server-2019/
 * https://habr.com/ru/companies/testo_lang/articles/525326/
 
-### **Третий этап** установкa ЦС IIS (installl_sentraSertifikat.pdf). 
+### **Третий этап** установкa ЦС (installl_sentraSertifikat.pdf). 
 
-### **Четвертый этап настройка ЦС (RDP.pdf)** 
+### **Четвертый этап настройка ЦС (RDP.pdf или RDP(my).pdf)** 
 
 ### **Пятый этап MySQL** 
 * https://lite.host/faq/hosting/komandnaya-stroka-mysql
