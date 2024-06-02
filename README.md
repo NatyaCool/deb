@@ -95,7 +95,7 @@ AllowedIPs = 12.0.0.2/32
 `client`
 ```commandline
 [Interface]
-PrivateKey = cPmRFsNeyApJKVT4PdsaMtqj0mDD8rEOlhQ9BfJL5ls=
+PrivateKey = 
 Address = 12.0.0.2/24
 
 [Peer]
