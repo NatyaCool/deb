@@ -79,6 +79,30 @@ nano /etc/sysctl.conf
 ### **Седьмой этап WireGuard** 
 * https://introserv.com/ru/docs/wireguard-windows-setup/
 
+`server`
+```commandline
+[Interface]
+PrivateKey = GLzBeYvo8JoegJfER+CfPZD3g0YR2ejxteUZS25qS08=
+ListenPort = 51820
+Address = 12.0.0.1/24
+
+[Peer]
+PublicKey = 8OIW4L154sefZaHi4FddGWAZEH2vQ+u4fP7pwhGOXCA=
+AllowedIPs = 12.0.0.2/32
+```
+
+
+`client`
+```commandline
+[Interface]
+PrivateKey = cPmRFsNeyApJKVT4PdsaMtqj0mDD8rEOlhQ9BfJL5ls=
+Address = 12.0.0.2/24
+
+[Peer]
+PublicKey = kmJgSJlvKVurF0tDQYvIeVauCPq1VDdho4KiFV34GzQ=
+AllowedIPs = 5.4.1.0/0, ::/0
+Endpoint = 1.2.3.1:51820
+```
 
 
 
