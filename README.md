@@ -62,12 +62,8 @@ nano /etc/sysctl.conf
 
 * https://softcomputers.org/blog/nastroika-windows-server-2019/
 * https://habr.com/ru/companies/testo_lang/articles/525326/
+
 ### **Третий этап** установкa ЦС IIS (installl_sentraSertifikat.pdf). 
-
-Полезные сылки: 
-
-* https://abuzov.com/active-directory-certificate-services/
-* https://dev.rutoken.ru/pages/viewpage.action?pageId=57148969
 
 ### **Четвертый этап настройка ЦС (RDP.pdf)** 
 
