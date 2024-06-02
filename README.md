@@ -62,6 +62,7 @@ nano /etc/sysctl.conf
 
 * https://softcomputers.org/blog/nastroika-windows-server-2019/
 * https://habr.com/ru/companies/testo_lang/articles/525326/
+* https://serveradmin.ru/nastroyka-kontrollerov-domena-v-raznyih-podsetyah/?ysclid=lwwlyw717y637249778 - соединение двух сервиров
 
 ### **Третий этап** установкa ЦС (installl_sentraSertifikat.pdf). 
 
