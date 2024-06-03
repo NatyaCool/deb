@@ -12,12 +12,12 @@
 
 ```commandline
     allow-hotplug enp0s3
-    iface enpos3 inet static
+    iface enp0s3 inet static
     address <ip> //здесь надо ставить ip-адрес
     netmask <mask> //здесь надо ставить маску подсети
 
     allow-hotplug enp0s3
-    iface enpos8 inet static
+    iface enp0s8 inet static
     address <ip> //здесь надо ставить ip-адрес
     netmask <mask> //здесь надо ставить маску подсети
     up ip route add <ip> via 8.9.10._/__
@@ -30,12 +30,12 @@
 
 ```commandline
 allow-hotplug enp0s3
-iface enpos3 inet static
+iface enp0s3 inet static
 address 2.3.4.10
 netmask 255.255.255.224
 
 allow-hotplug enp0s8
-iface enpos8 inet static
+iface enp0s8 inet static
 address 8.9.10.20
 netmask 255.255.255.0
 up ip route add 1.2.3.0/28 via 8.9.10.10
